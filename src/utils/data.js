@@ -1,4 +1,6 @@
+
 const Data=
+
 [
     {
       "Alcohol": 1,
@@ -2671,20 +2673,5 @@ const Data=
       "Unknown": 1.6
     }
   ]
-//   declare four empty array to push the data 
-   let lineXAxis=[]
-   let lineYAxis=[]
-   let barXAxis =[]
-   let barYAxis=[]
-//    this is using for loop to push values from array 
-  for(let el of Data){
-    lineXAxis.push(el.Ash);lineYAxis.push(el.Flavanoids); barXAxis.push(el.Alcohol); barYAxis.push(el.Magnesium)
-  }
-    // making axisData object to export values 
-let axisData = {
-    lineXAxis :lineXAxis,
-    lineYAxis :lineYAxis,
-    barXAxis:barXAxis,
-    barYAxis:barYAxis
-}
-export default axisData
+
+export default Data

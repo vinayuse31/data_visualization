@@ -1,8 +1,7 @@
 import ReactEcharts from "echarts-for-react"
-import axisData from "../utils/data";
-
-function LineChart() {
-    // this is the linchart json and import wine data from axisData 
+function LineChart({axisData}) {
+  // get the axisData as a props 
+  // this is the linchart json and import wine data from axisData 
     const option = {
       xAxis: {
         type: 'category',

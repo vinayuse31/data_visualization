@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactEcharts from "echarts-for-react"
-import axisData from '../utils/data';
-
- // this is the linchart json and import wine data from axisData 
-const option = {
+const BarCharts = ({axisData}) => {
+   // get the axisData as a props 
+   // this is the linchart json and import wine data from axisData 
+  const option = {
     xAxis: {
       type: 'category',
       data: axisData.barXAxis
@@ -18,7 +18,6 @@ const option = {
       }
     ]
   };
-const BarCharts = () => {
   return (
     // this is the echart component 
     <div className="container">
