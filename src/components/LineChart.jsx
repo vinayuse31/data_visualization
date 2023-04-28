@@ -23,7 +23,7 @@ function LineChart({axisData}) {
     <h1 className="container-head">Line Chart</h1>
       <ReactEcharts
       option={option}
-      style={{ width:"100%", height: "500px",}}
+      style={{ width:"100%", height: "550px",}}
     ></ReactEcharts>
   </div>
   )
