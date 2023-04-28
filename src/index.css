@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+}
+.container-head{
+  margin-left: 8.5rem;
+}
