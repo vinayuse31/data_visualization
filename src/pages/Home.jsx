@@ -8,10 +8,18 @@ const Home = () => {
   let lineYAxis = []
   let barXAxis = []
   let barYAxis = []
+  // this function remove the duplicate the value of data 
+  const barResult = Data.filter(
+    (thing, index, self) =>
+      index ===
+      self.findIndex((t) => t.Alcohol === thing.Alcohol)
+  );
   //    this is using for loop to push values from array 
   for (let el of Data) {
-    lineXAxis.push(el.Ash);
-    lineYAxis.push(el.Flavanoids);
+    lineXAxis.push(el.Flavanoids);
+    lineYAxis.push(el.Ash)
+  }
+  for (let el of barResult) {
     barXAxis.push(el.Alcohol);
     barYAxis.push(el.Magnesium)
   }

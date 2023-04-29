@@ -29,6 +29,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `screenshot of the charts`
+![Getting Started](./src/assets/Screenshot%20(96).png)
+![Getting Started](./src/assets/Screenshot%20(97).png)
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**

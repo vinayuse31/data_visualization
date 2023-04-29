@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactEcharts from "echarts-for-react"
 const BarCharts = ({axisData}) => {
+ 
    // get the axisData as a props 
    // this is the linchart json and import wine data from axisData 
   const option = {
@@ -24,7 +25,7 @@ const BarCharts = ({axisData}) => {
     <h1 className="container-head" style={{marginTop:"1rem"}}>Bar Chart</h1>
       <ReactEcharts
       option={option}
-      style={{ width:"100%", height: "550px",}}
+      style={{ width:"100%", height: "620px",}}
     ></ReactEcharts>
   </div>
   )
